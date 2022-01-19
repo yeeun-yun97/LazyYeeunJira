@@ -20,12 +20,11 @@
 
 
 ### how to use
+![auth data](https://user-images.githubusercontent.com/60867063/150051778-5178e2cb-6b6b-492b-a5a2-bc4bf4fb3332.png)
 jira 프로젝트를 만들고, auth.json에 정보를 입력한다.
 script.py를 실행하여 매일 이슈를 생성한다.
 
 
 ### how it worked
+![achievement](https://user-images.githubusercontent.com/60867063/150051792-2a14b3df-f392-4810-9509-168b194e160d.png)
 
-    
-    
-    
