@@ -1,0 +1,11 @@
+{
+    "dayCount": 1,
+    "weekCount": 1,
+    "sprintDefaultName": "[{}주차] 스프린트",
+    "storyDefaultNames":
+    [
+        "[{}일차] 1일 1커밋({})",
+        "[{}일차] 타자 연습({})",
+        "[{}일차] 1일 1운동({})"
+    ]
+}
