@@ -76,7 +76,14 @@ def everyday():
 	
 	arr=[issue0.key,issue1.key,issue2.key]
 
-#monday()
-everyday()
-saveJson()
-webbrowser.open("{}/browse/{}".format(JIRA_URL,JIRA_PREFIX))
+
+def run():
+	today=datetime.datetime.today()
+	weekday=today.weekday()
+	if(weekday==0):
+		monday()
+	everyday()
+	saveJson('data.json')
+	webbrowser.open("{}/browse/{}".format(JIRA_URL,JIRA_PREFIX))
+
+run()
